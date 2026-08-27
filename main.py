@@ -4,9 +4,8 @@ import streamlit as st
 import pandas as pd
 from dict import TICKER_DICT, PERIOD_OPTIONS
 
-# WARNING: run "streamlit run main.py" in terminal
 
-# Streamlit page setup
+#Streamlit page setup
 
 st.set_page_config(page_title="Fourier Market Filter", layout="wide")
 st.title("Fourier Market Signal Filter")
